@@ -19,9 +19,13 @@ int main() {
       printf("TRIANGULO ESCALENO");
 
    }
-   else
+   else if((a == b) || (b == c))
    {
       printf("TRIANGULO ISOCELES");
+   }
+   else
+   {
+      printf("OS LADOS NAO FORMAM UM TRIANGULO");
    }
    
 

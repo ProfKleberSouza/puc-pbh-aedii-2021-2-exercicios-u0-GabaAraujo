@@ -6,31 +6,44 @@ int main() {
 
    scanf("%d %d %d",&a,&b,&c);
 
-  
-   if((a == b) && (b == c))
+   if(a+b < c || b+c < a || c+a < b)
    {
-
-      printf("TRIANGULO EQUILATERO");
-
+      printf("OS LADOS NAO FORMAM UM TRIANGULO"); //caso não for nenhuma dessas condicoens 
    }
-   else if (a != b && b !=c && c != a)
+   else if(a == b && b == c) // se ambos forem iguais sera um triangulo equilatero
    {
-
-      printf("TRIANGULO ESCALENO");
-
+      printf("TRIANGULO EQUILATERO"); 
    }
-   else if((a == b) || (b == c))
+   else if(a == b || b == c || c == a) //
    {
       printf("TRIANGULO ISOCELES");
    }
    else
    {
-      printf("OS LADOS NAO FORMAM UM TRIANGULO");
+      printf("TRIANGULO ESCALENO"); //caso não for nenhuma das condicoens 
    }
-   
+
+ 
+ /*
+   else if (a != b && b !=c && c != a) //se todos os lados forem diferentes
+   {
+
+      printf("TRIANGULO ESCALENO");
+
+   }
+   else if((a == b) || (b == c)) //se uma condicao for sadisfeita ele ja e definido
+   {
+      printf("TRIANGULO ISOCELES");
+   }
+   else if((a == b) && (b == c)) // ambos tem de ser iguais
+   {
+
+      printf("TRIANGULO EQUILATERO");
+
+   }
 
 
-
+ */
 
 
 }

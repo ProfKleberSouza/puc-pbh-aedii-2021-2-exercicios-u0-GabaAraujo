@@ -3,7 +3,10 @@
 void contabiliza_vetor(int n)
 {
 
-   int vetor[n]; //vetor com n numeros
+
+   
+   int *vetor = (int*)malloc(n*sizeof(int)); //alocacao dinamica do vetor ->tratado como vetor comum
+
 
    int maior,menor;
 
@@ -42,6 +45,7 @@ void contabiliza_vetor(int n)
    printf("MAIOR = %d",maior);
 
 
+  free (vetor);
 
 }
 

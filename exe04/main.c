@@ -36,7 +36,7 @@ int main() {
    printf("MAIOR = %d ",maior);
    printf("\n");
    printf("MENOR = %d ",menor);
-
+   printf("\n");
 
 
 

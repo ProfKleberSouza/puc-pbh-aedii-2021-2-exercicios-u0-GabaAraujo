@@ -33,10 +33,10 @@ int main() {
       menor=c;
    }
 
-   printf("MAIOR = %d ",maior);
-   printf("\n");
-   printf("MENOR = %d ",menor);
-   printf("\n");
+    printf("MENOR = %d ",menor);
+    printf("\n");
+    printf("MAIOR = %d ",maior);
+    printf("\n");
 
 
 

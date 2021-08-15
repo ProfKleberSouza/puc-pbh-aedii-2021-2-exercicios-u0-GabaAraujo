@@ -43,7 +43,7 @@ void contabiliza_vetor(int n)
    printf("MENOR = %d",menor);
    printf("\n");
    printf("MAIOR = %d",maior);
-
+   printf("\n");
 
   free (vetor);
 

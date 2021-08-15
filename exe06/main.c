@@ -23,7 +23,7 @@ int main() {
       printf("TRIANGULO ESCALENO"); //caso não for nenhuma das condicoens 
    }
 
- 
+   printf("\n");
  /*
    else if (a != b && b !=c && c != a) //se todos os lados forem diferentes
    {

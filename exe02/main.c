@@ -12,7 +12,7 @@ int main() {
    printf("T = %d \n", Tempo);
    printf("D = %d \n", Tempo * VelocidadeMedia); //distancia
    printf("L = %d \n", (Tempo * VelocidadeMedia)/RendimentoMedio); // distancia/rendimento medio
-
+   
 
 
 

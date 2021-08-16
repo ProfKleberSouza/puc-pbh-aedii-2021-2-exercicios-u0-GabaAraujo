@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 
+
 int main() {
 
    int n;
@@ -13,10 +14,12 @@ int main() {
        if(n > 0)
        {
            printf("POSITIVO ");
+           printf("\n");
        }
        else if(n < 0)
        {
            printf("NEGATIVO ");
+           printf("\n");
        }
 
      scanf("%d",&n);

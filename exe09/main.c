@@ -7,7 +7,6 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <stdio.h>
-#include <conio.h>
 #include <string.h>
 #define MAX 100
 

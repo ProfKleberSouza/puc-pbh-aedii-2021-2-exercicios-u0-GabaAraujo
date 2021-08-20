@@ -19,11 +19,11 @@ int main() {
 
    if(aprovado == 1)
    {
-      printf("NOTA = %.1f (APROVADO)",(double)((a+b+c+d)/4));
+      printf("NOTA = %.1f (APROVADO)",((a+b+c+d)/4));
    }
    else
    {
-      printf("NOTA = %.1f (REPROVADO)",(double)((a+b+c+d)/4));
+      printf("NOTA = %.1f (REPROVADO)",((a+b+c+d)/4));
 
    }
 
